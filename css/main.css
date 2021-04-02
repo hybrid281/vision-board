@@ -32,10 +32,6 @@ p {
 #vision-board {
   width: 1200px;
   height: auto;
-  /**position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);**/
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   overflow: auto;
