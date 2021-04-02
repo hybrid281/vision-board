@@ -1,0 +1,91 @@
+/*MAIN LAYOUT*/
+
+body {
+  background: #E8E8E8;
+}
+
+p {
+  font-weight: bold;
+  line-height: 20px;
+  font-size: 20px
+}
+.light-bg {
+  background-color: #FFFFFF;
+}
+
+.dark-bg {
+  background-color: #3B3B3B;
+}
+
+.vision-title {
+  font-family: 'Permanent Marker', cursive;
+  margin-bottom:0px;
+  color: white;
+}
+.vision-top {
+  margin-top: 0px;
+  color: white;
+}
+
+/*GRID LAYOUT*/
+
+#vision-board {
+  width: 1200px;
+  height: 850px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  overflow: auto;
+  background-position: center;
+  background: url("../img/background.png")
+}
+
+.block {
+  float: left;
+  width: 400px;
+  box-sizing: border-box;
+}
+
+.small-block {
+  height: 210px;
+  padding: 30px;
+}
+
+.large-block {
+  height: 430px;
+  padding: 50px 25px;
+}
+
+.center {
+  text-align: center;
+}
+
+.right-side {
+  text-align: right;
+}
+
+.left-side {
+  text-align: left;
+}
+
+span{
+  background-color: #FFF44F;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0px 10px;
+}
+
+.largest-font {
+  font-size: 38px;
+  text-transform: capitalize;
+  margin-top: 0px;
+  line-height: 30px;
+}
+
+.adjust-size {
+  margin-bottom:4px;
+  margin-top:4px;
+}
