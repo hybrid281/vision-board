@@ -32,6 +32,7 @@ p {
 #vision-board {
   width: 1200px;
   height: auto;
+  margin: 50px auto;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   overflow: auto;
